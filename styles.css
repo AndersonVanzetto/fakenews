@@ -151,11 +151,12 @@ header{
       text-decoration: none;
       font-family: 'Rajdhani';
       font-size: 30px;
+      text-align: center;
   }
 
 #conteudo{
   display: none;
-  margin-top: 50px;
+  margin-top: 80px;
   margin-bottom: 50px;
 
 }
@@ -164,6 +165,7 @@ header{
   width: 340px;
   height: 620px;
   margin: auto;
+  margin-top: 20px;
   border: 16px black solid;
   border-top-width: 60px;
   border-bottom-width: 60px;
