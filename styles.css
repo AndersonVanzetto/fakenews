@@ -151,7 +151,7 @@ header{
       text-decoration: none;
       font-family: 'Rajdhani';
       font-size: 30px;
-      text-align: center;
+      float: right;
   }
 
 #conteudo{
