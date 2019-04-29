@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Guia Fake News</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="icon" href="imagens/icon.png" />
+    <link href="https://fonts.googleapis.com/css?family=Rajdhani" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  </head>
+  <body>
+  <script src="Script.js"></script>
+  <input id="navbar" type='checkbox'>
+    <label for="navbar">
+        <div class='menu'>
+            <span class='hamburger'></span>
+        </div>
+    </label>
+
+    <ul>
+        <li><a id="lm" href='index.html'>Home</a></li>
+        <li><a id="lm"href='fontes.html'>Confiável</a></li>
+        <li><a id="lm" href='sobre.html'>Sobre</a></li>
+    </ul>
+  <header>
+    <img src="imagens/logo.png" width="35%" />
+  </header>
+  <div class="bloco" id="principal">
+    <p>Aprenda passo a passo como</p>
+    <p>indentificar uma Fake News</p>
+    <p>e evitar o compartilhamento</p>
+    <p>de informações falsas </p>
+    <a id="caminho" href="#conteudo"><button onclick="myFunction(), openFullscreen();" class="button button1">Iniciar guia</button></a>
+  </div>
+  <div id="conteudo">
+    <div class="smartphone">
+      <img id="limpar" src="guia/1.gif" style="position:absolute; z-index: 1;" onclick="ocultar()" />
+      <div class="content" onclick="plusSlides(1)">
+        <div class="mySlides fade">
+          <img src="guia/yellow.png" style="width:100%">
+        </div>
+
+        <div class="mySlides fade">
+          <img src="guia/red.png" style="width:100%">
+        </div>
+      </div>
+    </div>
+  </div>
+  </body>
+</html>
