@@ -66,6 +66,7 @@ header{
       transition:  box-shadow 1.1s cubic-bezier(.19,1,.22,1);
       width: 60px;
       z-index: 2;
+      text-align: center;
   }
 
   .menu:hover {
@@ -151,7 +152,6 @@ header{
       text-decoration: none;
       font-family: 'Rajdhani';
       font-size: 30px;
-      float: right;
   }
 
 #conteudo{
