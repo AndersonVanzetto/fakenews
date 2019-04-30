@@ -140,7 +140,8 @@ header{
   }
 
   ul {
-      position: fixed;
+      position: absolute;
+      display: block;
       top: 50%;
       left: 50%;
       transform: translate(-50%, -50%);
@@ -150,8 +151,9 @@ header{
       transition: .25s .1s cubic-bezier(0, 1.07, 0, 1.02);
       visibility: hidden;
       z-index: 2;
-      text-align: center;
+      text-align:center;
   }
+
 
    a {
       color: rgb(51, 102, 153);
@@ -160,6 +162,14 @@ header{
       text-decoration: none;
       font-family: 'Rajdhani';
       font-size: 30px;
+      text-align: center;
+
+  }
+  @media screen and (max-width: 500px){
+    ul {
+      left: 45%;
+      top: 45%;
+    }
   }
 
 #conteudo{
