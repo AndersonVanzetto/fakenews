@@ -150,7 +150,7 @@ header{
       opacity: 0;
       transition: .25s .1s cubic-bezier(0, 1.07, 0, 1.02);
       visibility: hidden;
-      z-index: 2;
+      z-index: 3;
       text-align:center;
   }
 
