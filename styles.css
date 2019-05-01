@@ -1,9 +1,4 @@
-@media screen and (max-width: 500px){
-  ul {
-    left: 45%;
-    top: 45%;
-  }
-}
+
 body{
   background-color: rgb(51, 102, 153);
   margin: 0px;
@@ -171,6 +166,12 @@ header{
       font-size: 30px;
       text-align: center;
 
+  }
+  @media screen and (max-width: 500px){
+    ul {
+      left: 45%;
+      top: 45%;
+    }
   }
 
 #conteudo{
