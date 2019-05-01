@@ -149,7 +149,7 @@ header{
       font-size: 45px;
       opacity: 0;
       transition: .25s .1s cubic-bezier(0, 1.07, 0, 1.02);
-      visibility: visible;
+      visibility: inherit;
       z-index: 3;
       text-align:center;
   }
