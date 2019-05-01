@@ -140,7 +140,7 @@ header{
   }
 
   ul {
-      position: fixed;
+      position: absolute;
       display: block;
       top: 50%;
       left: 50%;
