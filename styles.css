@@ -138,7 +138,7 @@ header{
   input:checked ~ ul {
       opacity: 1;
       visibility: visible;
-      display: block;
+      display: fixed;
   }
 
   ul {
