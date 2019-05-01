@@ -142,27 +142,27 @@ header{
   }
 
   ul {
-      position: fixed;
-      top: 50%;
-      left: 50%;
-      transform: translate(-50%, -50%);
-      list-style: none;
-      font-size: 45px;
-      opacity: 0;
-      transition: .25s .1s cubic-bezier(0, 1.07, 0, 1.02);
-      visibility: hidden;
-      z-index: 2;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    list-style: none;
+    font-size: 45px;
+    opacity: 0;
+    transition: .25s .1s cubic-bezier(0, 1.07, 0, 1.02);
+    visibility: hidden;
+    z-index: 2;
+    text-align: center;
   }
 
 
    a {
-      color: rgb(51, 102, 153);
-      display: block;
-      margin-bottom: 1em;
-      text-decoration: none;
-      font-family: 'Rajdhani';
-      font-size: 30px;
-      text-align: center;
+     color: rgb(51, 102, 153);
+     display: block;
+     margin-bottom: 1em;
+     text-decoration: none;
+     font-family: 'Rajdhani';
+     font-size: 30px;
 
   }
   @media screen and (max-width: 500px){
