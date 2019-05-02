@@ -24,9 +24,10 @@ showSlides(slideIndex);
 function plusSlides(n) {
   showSlides(slideIndex += n);
 }
-function ocultar()
-{
-   var camada=document.getElementById("limpar");
-   camada.style.display="none";
-   camada.style.visibility="hidden";
+function ocultar() {
+  var camada = document.getElementById("limpar");
+  if (window.getComputedStyle(camada).display === "block") {
+    camada.style.display = "none";
+  }
+
 }
