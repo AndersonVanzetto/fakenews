@@ -19,14 +19,15 @@ function openFullscreen() {
 }
 var slideIndex = 1;
 showSlides(slideIndex);
-
 // Next/previous controls
 function plusSlides(n) {
   showSlides(slideIndex += n);
+  var slideIndex = 1;
+  showSlides(slideIndex);
 }
 function ocultar()
 {
    var camada=document.getElementById("limpar");
    camada.style.display="none";
    camada.style.visibility="hidden";
-} 
+}
