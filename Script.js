@@ -24,7 +24,9 @@ showSlides(slideIndex);
 function plusSlides(n) {
   showSlides(slideIndex += n);
 }
-function limpar()
+function ocultar()
 {
-   document.getElementById("limpar").innerHTML="";
+   var camada=document.getElementById("limpar");
+   camada.style.display="none";
+   camada.style.visibility="hidden";
 } 
