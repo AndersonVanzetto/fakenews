@@ -28,7 +28,7 @@ function plusSlides(n) {
 function ocultar()
 {
    var camada=document.getElementById("limpar");
-   camada.style.display="none";
+   camada.style.display="block";
    camada.style.visibility="hidden";
 }
 =======
