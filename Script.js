@@ -24,10 +24,12 @@ showSlides(slideIndex);
 function plusSlides(n) {
   showSlides(slideIndex += n);
 }
-function ocultar() {
-  var camada = document.getElementById("limpar");
-  if (window.getComputedStyle(camada).display === "block") {
-    camada.style.display = "none";
-  }
-
+<<<<<<< HEAD
+function ocultar()
+{
+   var camada=document.getElementById("limpar");
+   camada.style.display="none";
+   camada.style.visibility="hidden";
 }
+=======
+>>>>>>> 8be46c3b71ee4153d79c07c08fe9bd7a7acef444
