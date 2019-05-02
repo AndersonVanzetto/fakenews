@@ -24,7 +24,3 @@ showSlides(slideIndex);
 function plusSlides(n) {
   showSlides(slideIndex += n);
 }
-function limpar()
-{
-   document.getElementById("limpar").innerHTML="";
-} 
