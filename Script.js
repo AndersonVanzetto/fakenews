@@ -23,7 +23,7 @@ function ocultar()
    camada.style.display="none";
    camada.style.visibility="hidden";
 }
-var slideIndex = 0;
+var slideIndex = 1;
 showSlides(slideIndex);
 
 function plusSlides(n) {
